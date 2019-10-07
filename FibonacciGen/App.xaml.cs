@@ -14,6 +14,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
 
 namespace FibonacciGen
 {
@@ -30,6 +32,7 @@ namespace FibonacciGen
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+            AppCenter.Start("bf21025f-2663-44da-afe0-a53613104264", typeof(Analytics));
         }
 
         /// <summary>
