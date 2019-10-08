@@ -18,11 +18,13 @@ namespace FibonacciGen
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
         /// </summary>
+        
         public App()
         {
+            AppCenter.Start("bf21025f-2663-44da-afe0-a53613104264", typeof(Analytics));
             this.InitializeComponent();
             this.Suspending += OnSuspending;
-            AppCenter.Start("bf21025f-2663-44da-afe0-a53613104264", typeof(Analytics));
+            
         }
 
         /// <summary>

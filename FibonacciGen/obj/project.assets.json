@@ -415,6 +415,52 @@
         "runtime": {
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
+      },
+      "XPlat.ApplicationModel/1.6.19104.1": {
+        "type": "package",
+        "dependencies": {
+          "XPlat.Storage": "1.6.19104.1"
+        },
+        "compile": {
+          "lib/uap10.0/XPlat.ApplicationModel.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/XPlat.ApplicationModel.dll": {}
+        }
+      },
+      "XPlat.Core/1.6.19104.1": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/XPlat.Core.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/XPlat.Core.dll": {}
+        }
+      },
+      "XPlat.Foundation/1.6.19104.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.4/XPlat.Foundation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/XPlat.Foundation.dll": {}
+        }
+      },
+      "XPlat.Storage/1.6.19104.1": {
+        "type": "package",
+        "dependencies": {
+          "XPlat.Core": "1.6.19104.1",
+          "XPlat.Foundation": "1.6.19104.1"
+        },
+        "compile": {
+          "lib/uap10.0/XPlat.Storage.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/XPlat.Storage.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.17763/win10-arm": {
@@ -998,6 +1044,52 @@
         },
         "runtime": {
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
+      "XPlat.ApplicationModel/1.6.19104.1": {
+        "type": "package",
+        "dependencies": {
+          "XPlat.Storage": "1.6.19104.1"
+        },
+        "compile": {
+          "lib/uap10.0/XPlat.ApplicationModel.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/XPlat.ApplicationModel.dll": {}
+        }
+      },
+      "XPlat.Core/1.6.19104.1": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/XPlat.Core.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/XPlat.Core.dll": {}
+        }
+      },
+      "XPlat.Foundation/1.6.19104.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.4/XPlat.Foundation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/XPlat.Foundation.dll": {}
+        }
+      },
+      "XPlat.Storage/1.6.19104.1": {
+        "type": "package",
+        "dependencies": {
+          "XPlat.Core": "1.6.19104.1",
+          "XPlat.Foundation": "1.6.19104.1"
+        },
+        "compile": {
+          "lib/uap10.0/XPlat.Storage.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/XPlat.Storage.dll": {}
         }
       }
     },
@@ -1584,6 +1676,52 @@
         "runtime": {
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
+      },
+      "XPlat.ApplicationModel/1.6.19104.1": {
+        "type": "package",
+        "dependencies": {
+          "XPlat.Storage": "1.6.19104.1"
+        },
+        "compile": {
+          "lib/uap10.0/XPlat.ApplicationModel.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/XPlat.ApplicationModel.dll": {}
+        }
+      },
+      "XPlat.Core/1.6.19104.1": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/XPlat.Core.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/XPlat.Core.dll": {}
+        }
+      },
+      "XPlat.Foundation/1.6.19104.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.4/XPlat.Foundation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/XPlat.Foundation.dll": {}
+        }
+      },
+      "XPlat.Storage/1.6.19104.1": {
+        "type": "package",
+        "dependencies": {
+          "XPlat.Core": "1.6.19104.1",
+          "XPlat.Foundation": "1.6.19104.1"
+        },
+        "compile": {
+          "lib/uap10.0/XPlat.Storage.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/XPlat.Storage.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.17763/win10-arm64-aot": {
@@ -2165,6 +2303,52 @@
         },
         "runtime": {
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
+      "XPlat.ApplicationModel/1.6.19104.1": {
+        "type": "package",
+        "dependencies": {
+          "XPlat.Storage": "1.6.19104.1"
+        },
+        "compile": {
+          "lib/uap10.0/XPlat.ApplicationModel.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/XPlat.ApplicationModel.dll": {}
+        }
+      },
+      "XPlat.Core/1.6.19104.1": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/XPlat.Core.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/XPlat.Core.dll": {}
+        }
+      },
+      "XPlat.Foundation/1.6.19104.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.4/XPlat.Foundation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/XPlat.Foundation.dll": {}
+        }
+      },
+      "XPlat.Storage/1.6.19104.1": {
+        "type": "package",
+        "dependencies": {
+          "XPlat.Core": "1.6.19104.1",
+          "XPlat.Foundation": "1.6.19104.1"
+        },
+        "compile": {
+          "lib/uap10.0/XPlat.Storage.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/XPlat.Storage.dll": {}
         }
       }
     },
@@ -2749,6 +2933,52 @@
         },
         "runtime": {
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
+      "XPlat.ApplicationModel/1.6.19104.1": {
+        "type": "package",
+        "dependencies": {
+          "XPlat.Storage": "1.6.19104.1"
+        },
+        "compile": {
+          "lib/uap10.0/XPlat.ApplicationModel.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/XPlat.ApplicationModel.dll": {}
+        }
+      },
+      "XPlat.Core/1.6.19104.1": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/XPlat.Core.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/XPlat.Core.dll": {}
+        }
+      },
+      "XPlat.Foundation/1.6.19104.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.4/XPlat.Foundation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/XPlat.Foundation.dll": {}
+        }
+      },
+      "XPlat.Storage/1.6.19104.1": {
+        "type": "package",
+        "dependencies": {
+          "XPlat.Core": "1.6.19104.1",
+          "XPlat.Foundation": "1.6.19104.1"
+        },
+        "compile": {
+          "lib/uap10.0/XPlat.Storage.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/XPlat.Storage.dll": {}
         }
       }
     },
@@ -3335,6 +3565,52 @@
         "runtime": {
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
+      },
+      "XPlat.ApplicationModel/1.6.19104.1": {
+        "type": "package",
+        "dependencies": {
+          "XPlat.Storage": "1.6.19104.1"
+        },
+        "compile": {
+          "lib/uap10.0/XPlat.ApplicationModel.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/XPlat.ApplicationModel.dll": {}
+        }
+      },
+      "XPlat.Core/1.6.19104.1": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/XPlat.Core.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/XPlat.Core.dll": {}
+        }
+      },
+      "XPlat.Foundation/1.6.19104.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.4/XPlat.Foundation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/XPlat.Foundation.dll": {}
+        }
+      },
+      "XPlat.Storage/1.6.19104.1": {
+        "type": "package",
+        "dependencies": {
+          "XPlat.Core": "1.6.19104.1",
+          "XPlat.Foundation": "1.6.19104.1"
+        },
+        "compile": {
+          "lib/uap10.0/XPlat.Storage.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/XPlat.Storage.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.17763/win10-x86": {
@@ -3918,6 +4194,52 @@
         },
         "runtime": {
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
+      "XPlat.ApplicationModel/1.6.19104.1": {
+        "type": "package",
+        "dependencies": {
+          "XPlat.Storage": "1.6.19104.1"
+        },
+        "compile": {
+          "lib/uap10.0/XPlat.ApplicationModel.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/XPlat.ApplicationModel.dll": {}
+        }
+      },
+      "XPlat.Core/1.6.19104.1": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/XPlat.Core.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/XPlat.Core.dll": {}
+        }
+      },
+      "XPlat.Foundation/1.6.19104.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.4/XPlat.Foundation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/XPlat.Foundation.dll": {}
+        }
+      },
+      "XPlat.Storage/1.6.19104.1": {
+        "type": "package",
+        "dependencies": {
+          "XPlat.Core": "1.6.19104.1",
+          "XPlat.Foundation": "1.6.19104.1"
+        },
+        "compile": {
+          "lib/uap10.0/XPlat.Storage.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/XPlat.Storage.dll": {}
         }
       }
     },
@@ -4503,6 +4825,52 @@
         },
         "runtime": {
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
+      "XPlat.ApplicationModel/1.6.19104.1": {
+        "type": "package",
+        "dependencies": {
+          "XPlat.Storage": "1.6.19104.1"
+        },
+        "compile": {
+          "lib/uap10.0/XPlat.ApplicationModel.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/XPlat.ApplicationModel.dll": {}
+        }
+      },
+      "XPlat.Core/1.6.19104.1": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/XPlat.Core.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/XPlat.Core.dll": {}
+        }
+      },
+      "XPlat.Foundation/1.6.19104.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.4/XPlat.Foundation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/XPlat.Foundation.dll": {}
+        }
+      },
+      "XPlat.Storage/1.6.19104.1": {
+        "type": "package",
+        "dependencies": {
+          "XPlat.Core": "1.6.19104.1",
+          "XPlat.Foundation": "1.6.19104.1"
+        },
+        "compile": {
+          "lib/uap10.0/XPlat.Storage.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/XPlat.Storage.dll": {}
         }
       }
     }
@@ -9124,12 +9492,99 @@
         "sqlitepclraw.provider.e_sqlite3.uwp10.1.1.2.nupkg.sha512",
         "sqlitepclraw.provider.e_sqlite3.uwp10.nuspec"
       ]
+    },
+    "XPlat.ApplicationModel/1.6.19104.1": {
+      "sha512": "xxaezIkyShTjrepbOslb/jG2KCwHlioVu9s1l44qAXprdjm2VbAUOgIyxyk3eDiHvnS+A/kUw51ijUbU7Bhzjw==",
+      "type": "package",
+      "path": "xplat.applicationmodel/1.6.19104.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid81/XPlat.ApplicationModel.dll",
+        "lib/monoandroid81/XPlat.ApplicationModel.pdb",
+        "lib/monoandroid81/XPlat.ApplicationModel.xml",
+        "lib/netstandard1.4/XPlat.ApplicationModel.dll",
+        "lib/netstandard1.4/XPlat.ApplicationModel.pdb",
+        "lib/netstandard1.4/XPlat.ApplicationModel.xml",
+        "lib/uap10.0/XPlat.ApplicationModel.dll",
+        "lib/uap10.0/XPlat.ApplicationModel.pdb",
+        "lib/uap10.0/XPlat.ApplicationModel.pri",
+        "lib/uap10.0/XPlat.ApplicationModel.xml",
+        "lib/xamarinios10/XPlat.ApplicationModel.dll",
+        "lib/xamarinios10/XPlat.ApplicationModel.pdb",
+        "lib/xamarinios10/XPlat.ApplicationModel.xml",
+        "xplat.applicationmodel.1.6.19104.1.nupkg.sha512",
+        "xplat.applicationmodel.nuspec"
+      ]
+    },
+    "XPlat.Core/1.6.19104.1": {
+      "sha512": "j+ZefUK8GLBwtSTNeaX+6MhFhpaZsXjTsZSwljKnRFFQSCTo02tSITgjgMDZ2bZJ25qMKVZ4JJS0b0OEvhyhfw==",
+      "type": "package",
+      "path": "xplat.core/1.6.19104.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid81/XPlat.Core.dll",
+        "lib/monoandroid81/XPlat.Core.pdb",
+        "lib/monoandroid81/XPlat.Core.xml",
+        "lib/netstandard1.4/XPlat.Core.dll",
+        "lib/netstandard1.4/XPlat.Core.pdb",
+        "lib/netstandard1.4/XPlat.Core.xml",
+        "lib/uap10.0/XPlat.Core.dll",
+        "lib/uap10.0/XPlat.Core.pdb",
+        "lib/uap10.0/XPlat.Core.pri",
+        "lib/uap10.0/XPlat.Core.xml",
+        "lib/xamarinios10/XPlat.Core.dll",
+        "lib/xamarinios10/XPlat.Core.pdb",
+        "lib/xamarinios10/XPlat.Core.xml",
+        "xplat.core.1.6.19104.1.nupkg.sha512",
+        "xplat.core.nuspec"
+      ]
+    },
+    "XPlat.Foundation/1.6.19104.1": {
+      "sha512": "T4X0/ZRw7R14kixW2/m6UlgbD2QM0LMpOuJ5uubrC1fWsVHD9FG1ntgSeF5VacNulQgtaecvtmWsXV2+zX1CEA==",
+      "type": "package",
+      "path": "xplat.foundation/1.6.19104.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.4/XPlat.Foundation.dll",
+        "lib/netstandard1.4/XPlat.Foundation.pdb",
+        "lib/netstandard1.4/XPlat.Foundation.xml",
+        "xplat.foundation.1.6.19104.1.nupkg.sha512",
+        "xplat.foundation.nuspec"
+      ]
+    },
+    "XPlat.Storage/1.6.19104.1": {
+      "sha512": "Xhts8ZdkRu+S4d3qBhhXusT9VuymJrFqo65wetMmD9AIk6icFM3H/nnHWa3ntEwQBFV8IugT1qzd+K2nTmYW6g==",
+      "type": "package",
+      "path": "xplat.storage/1.6.19104.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid81/XPlat.Storage.dll",
+        "lib/monoandroid81/XPlat.Storage.pdb",
+        "lib/monoandroid81/XPlat.Storage.xml",
+        "lib/netstandard1.4/XPlat.Storage.dll",
+        "lib/netstandard1.4/XPlat.Storage.pdb",
+        "lib/netstandard1.4/XPlat.Storage.xml",
+        "lib/uap10.0/XPlat.Storage.dll",
+        "lib/uap10.0/XPlat.Storage.pdb",
+        "lib/uap10.0/XPlat.Storage.pri",
+        "lib/uap10.0/XPlat.Storage.xml",
+        "lib/xamarinios10/XPlat.Storage.dll",
+        "lib/xamarinios10/XPlat.Storage.pdb",
+        "lib/xamarinios10/XPlat.Storage.xml",
+        "xplat.storage.1.6.19104.1.nupkg.sha512",
+        "xplat.storage.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.17763": [
       "Microsoft.AppCenter.Analytics >= 2.1.1",
-      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.8"
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.8",
+      "XPlat.ApplicationModel >= 1.6.19104.1"
     ]
   },
   "packageFolders": {
@@ -9179,6 +9634,10 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[6.2.8, )"
+          },
+          "XPlat.ApplicationModel": {
+            "target": "Package",
+            "version": "[1.6.19104.1, )"
           }
         },
         "imports": [

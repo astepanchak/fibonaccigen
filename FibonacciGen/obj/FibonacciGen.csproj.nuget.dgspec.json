@@ -46,6 +46,10 @@
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.8, )"
+            },
+            "XPlat.ApplicationModel": {
+              "target": "Package",
+              "version": "[1.6.19104.1, )"
             }
           },
           "imports": [
