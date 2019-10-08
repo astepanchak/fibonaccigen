@@ -1,0 +1,1 @@
+C:\Users\astep\akvelon\fibonaccigen\FibonacciGen\FibonacciGen.csproj;x86
